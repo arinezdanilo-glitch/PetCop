@@ -1,0 +1,1 @@
+Usar SOLO si el proyecto está vacío. Tu tablero ya tiene tarjetas: usa jira-import-nuevas.csv y mapeo-viejo-nuevo.md

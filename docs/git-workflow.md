@@ -27,4 +27,4 @@ SemVer: iteración N ⇒ `v0.N.0`; hotfixes `v0.N.1`; versión final `v1.0.0`.
 `git tag -a v0.1.0 -m "Iteración 1" && git push origin v0.1.0` y crear Release en GitHub.
 
 ## Vínculo con Jira
-Incluir la clave del issue en rama y commit para el enlace automático (ej. `feature/PET-12-login`). Tablero: To Do → In Progress → In Review → Done.
+Incluir la clave del issue en rama y commit para el enlace automático (ej. `feature/SWP-175-proveedores`). Proyecto Jira: **SWP** (Sistema Web PetCop). Tablero: Por hacer → En proceso → Revisión → Hecho. Una tarjeta pasa a *Revisión* cuando se abre el PR y a *Hecho* cuando se hace merge. Ejemplo de commit con smart commit: `feat(inventario): alta de proveedores SWP-175 #done`.

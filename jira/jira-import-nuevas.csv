@@ -1,0 +1,70 @@
+Issue Type,Summary,Description,Priority,Story point estimate,Labels
+Story,HU-02 Cerrar sesión y expiración por inactividad,"Como usuario interno quiero cerrar sesión y que esta expire por inactividad para proteger la información.
+
+Criterios de aceptación:
+* Botón cerrar sesión invalida el token
+* La sesión expira tras 15 min sin actividad
+* Al expirar redirige al login
+
+Roles: ADM,REC,VET",Medium,2,iteracion-1
+Story,HU-03 Gestionar usuarios internos,"Como administrador quiero crear, editar y desactivar usuarios internos para controlar quién usa el sistema.
+
+Criterios de aceptación:
+* Solo el administrador accede al módulo
+* No permite usuarios duplicados
+* Desactivar no elimina el registro
+* Debe asignar un rol al crear
+
+Roles: ADM",High,5,iteracion-1
+Story,HU-04 Asignar roles y permisos,"Como administrador quiero asignar roles (Administrador, Recepcionista, Veterinario) con permisos por módulo para limitar el acceso de cada persona.
+
+Criterios de aceptación:
+* Cada rol solo ve sus módulos en el menú
+* Acceso por URL a módulos no permitidos devuelve 403
+* Inventario y reportes solo visibles para Administrador
+* Cambios de rol quedan en auditoría
+
+Roles: ADM",High,5,iteracion-1
+Story,HU-23 Recordatorio de próxima vacuna,"Como recepcionista quiero ver las vacunas por renovar para contactar a los propietarios.
+
+Criterios de aceptación:
+* Lista vacunas a vencer en 15 días
+* Muestra datos de contacto
+
+Roles: REC,VET,ADM",Low,2,iteracion-2
+Story,HU-24 Exportar carnet de vacunación en PDF,"Como veterinario quiero exportar el carnet de vacunación para entregarlo al propietario.
+
+Criterios de aceptación:
+* PDF con datos de mascota, propietario y vacunas
+* Incluye fecha de emisión
+
+Roles: VET,REC,ADM",Low,3,iteracion-2
+Story,HU-34 Consultar Kardex,"Como administrador quiero consultar el Kardex por producto y fechas para trazar cada movimiento.
+
+Criterios de aceptación:
+* Muestra entrada, salida, saldo, motivo y usuario
+* Filtro por producto y rango de fechas
+
+Roles: ADM",Medium,3,iteracion-3
+Story,HU-37 Cierre de caja,"Como recepcionista quiero cerrar la caja contando el efectivo para controlar diferencias.
+
+Criterios de aceptación:
+* Muestra total esperado y contado
+* Registra la diferencia
+* Bloquea ventas tras el cierre
+
+Roles: REC,ADM",High,3,iteracion-4
+Story,HU-39 Consultar catálogo en caja,"Como recepcionista quiero ver precio y stock de productos dentro del POS para informar al cliente, sin acceder al módulo de inventario.
+
+Criterios de aceptación:
+* Solo lectura: nombre, precio y stock
+* No muestra costos ni proveedores
+
+Roles: REC,ADM",Medium,2,iteracion-4
+Story,HU-54 Exportar reportes a PDF y Excel,"Como administrador quiero exportar los reportes para compartirlos o archivarlos.
+
+Criterios de aceptación:
+* Exporta PDF y XLSX
+* Respeta los filtros aplicados
+
+Roles: ADM",Low,3,iteracion-5
