@@ -13,7 +13,8 @@ Plataforma para la veterinaria PetCop: clínica, inventario automatizado y POS/p
 - [Cambios del backlog](docs/cambios-backlog.md) · [CHANGELOG](CHANGELOG.md)
 
 ## Equipo
-Imanol Merlo (PM/XP Tracker) · Jhoel Barrionuevo (Analista/Customer) · Ludwing Cuba (Arquitecto BD) · Danilo Ariñez (QA/Dev) · Oliver Paucara (UX/UI/Dev)
+Imanol Merlo (Project Manager ) · Jhoel Barrionuevo (Analista/Customer) · Ludwing Cuba (Analista de Sistemas / Arquitecto de Base de Datos ) · Danilo Ariñez (Tester / QA / Developer ) · Oliver Paucara (UX/UI/Dev)
+
 
 ## Ejecutar
 ```bash
